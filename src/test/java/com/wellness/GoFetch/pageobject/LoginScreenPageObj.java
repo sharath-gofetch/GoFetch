@@ -2,6 +2,7 @@ package com.wellness.GoFetch.pageobject;
 
 import com.wellness.utilities.DriverManager;
 import com.wellness.utilities.MobileUtilities;
+import com.wellness.utilities.SeleniumUtilities;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.FindBy;

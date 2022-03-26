@@ -1,10 +1,10 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-23T02:26:34.828Z",
-        "line": 11,
+        "start_timestamp": "2022-03-26T02:08:54.318Z",
+        "line": 10,
         "name": "my first feature file",
         "description": "",
         "id": "check;my-first-feature-file;;2",
@@ -13,10 +13,11 @@
         "steps": [
           {
             "result": {
-              "duration": 1623000000,
-              "status": "passed"
+              "error_message": "java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field com.wellness.GoFetch.pageobject.LoginScreenPageObj.loginBtn to null value\n\tat sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)\n\tat sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)\n\tat sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)\n\tat java.lang.reflect.Field.set(Field.java:764)\n\tat org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)\n\tat org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)\n\tat com.wellness.GoFetch.pageobject.LoginScreenPageObj.\u003cinit\u003e(LoginScreenPageObj.java:29)\n\tat com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.\u003cinit\u003e(LoginScreenStepDefinitions.java:12)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)\n\tat org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)\n\tat org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)\n\tat org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)\n\tat org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)\n\tat org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)\n\tat org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)\n\tat org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)\n\tat io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:49)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:134)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:131)\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\n",
+              "duration": 141000000,
+              "status": "failed"
             },
-            "line": 6,
+            "line": 5,
             "name": "User click on the login button",
             "match": {
               "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.user_click_on_the_login_button()"
@@ -25,10 +26,9 @@
           },
           {
             "result": {
-              "duration": 13913000000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 6,
             "name": "User enter the  username \"pay1@futurepet.care\" and password \"Futurepet1\" and click on the login button",
             "match": {
               "arguments": [
@@ -49,7 +49,126 @@
         "tags": [
           {
             "name": "@check"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-26T02:08:54.512Z",
+        "line": 23,
+        "name": "Create new gofetch payment plan",
+        "description": "",
+        "id": "check;create-new-gofetch-payment-plan;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field com.wellness.GoFetch.pageobject.LoginScreenPageObj.loginBtn to null value\n\tat sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)\n\tat sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)\n\tat sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)\n\tat java.lang.reflect.Field.set(Field.java:764)\n\tat org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)\n\tat org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)\n\tat com.wellness.GoFetch.pageobject.LoginScreenPageObj.\u003cinit\u003e(LoginScreenPageObj.java:29)\n\tat com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.\u003cinit\u003e(LoginScreenStepDefinitions.java:12)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)\n\tat org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)\n\tat org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)\n\tat org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)\n\tat org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)\n\tat org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)\n\tat org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)\n\tat org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)\n\tat org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)\n\tat io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:49)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:134)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:131)\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User click on the login button",
+            "match": {
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.user_click_on_the_login_button()"
+            },
+            "keyword": "Given "
           },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enter the  username \"pay2@futurepet.care\" and password \"Futurepet1\" and click on the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pay2@futurepet.care",
+                  "offset": 26
+                },
+                {
+                  "val": "Futurepet1",
+                  "offset": 61
+                }
+              ],
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.user_enter_the_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User select the Clinic",
+            "match": {
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.user_select_the_clinic()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the phone number \"1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 24
+                }
+              ],
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.enter_the_phone_number_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Choose a pet",
+            "match": {
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.choose_a_pet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Select the payment plan \"monthly\", enter payment details ccNumber \"4242424242424242\", expiry \"0724\", cvv \"234\", zipcode\"123456\" and click on pay",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monthly",
+                  "offset": 25
+                },
+                {
+                  "val": "4242424242424242",
+                  "offset": 67
+                },
+                {
+                  "val": "0724",
+                  "offset": 94
+                },
+                {
+                  "val": "234",
+                  "offset": 106
+                },
+                {
+                  "val": "123456",
+                  "offset": 120
+                }
+              ],
+              "location": "com.wellness.GoFetch.stepDefininations.LoginScreenStepDefinitions.select_the_payment_plan_something_enter_payment_details_ccnumber_something_expiry_something_cvv_something_zipcodesomething_and_click_on_pay(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
           {
             "name": "@check"
           }
@@ -61,15 +180,6 @@
     "id": "check",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Compiled/check.feature",
-    "tags": [
-      {
-        "name": "@check",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   }
 ]
